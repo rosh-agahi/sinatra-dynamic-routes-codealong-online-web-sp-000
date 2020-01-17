@@ -24,5 +24,6 @@ class App < Sinatra::Base
     @two = params[:num2].to_i
     
     "@one + @two"
+  end
     
 end
